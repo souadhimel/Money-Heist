@@ -33,9 +33,11 @@
           <input type="text" id="clothesExpenses" />
         </div>
         <div class="calculation">
-          <button>Calculate</button>
-          <p>Total Expenses:</p>
-          <p>Balance:</p>
+          <button onclick="calculation()">Calculate</button>
+          <label for="expensesOutput">Total Expenses:</label>
+          <input id="expensesOutput" type="text" />
+          <label for="balance">Balance:</label>
+          <input id="balance" type="text" />
         </div>
         <div class="saving">
           <p>Save: <input type="text" /> % <button>save</button></p>
