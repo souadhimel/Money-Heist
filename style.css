@@ -22,6 +22,9 @@
 }
 #foodExpenses,
 #rentExpenses,
-#clothesExpenses {
+#clothesExpenses,
+#expensesOutput,
+#balance,
+#saving_amount {
   margin: 10px;
 }

@@ -33,16 +33,22 @@
           <input type="text" id="clothesExpenses" />
         </div>
         <div class="calculation">
-          <button onclick="calculation()">Calculate</button>
+          <button onclick="calculation()">Calculate</button> <br />
           <label for="expensesOutput">Total Expenses:</label>
-          <input id="expensesOutput" type="text" />
+          <input id="expensesOutput" type="text" /> <br />
           <label for="balance">Balance:</label>
           <input id="balance" type="text" />
         </div>
         <div class="saving">
-          <p>Save: <input type="text" /> % <button>save</button></p>
-          <p>Saving Amount:</p>
-          <p>Remaining Balance:</p>
+          <p>
+            Save: <input type="text" id="saving_input" /> %
+            <button onclick="saving()">save</button>
+          </p>
+          <br />
+          <label for="saving_amount">Saving Amount:</label>
+          <input type="text" id="saving_amount" /> <br />
+          <label for="remaining_balance">Remaining Balance:</label>
+          <input type="text" id="remaining_balance" />
         </div>
       </div>
     </section>
