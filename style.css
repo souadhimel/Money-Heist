@@ -20,3 +20,8 @@
   width: 100%;
   height: 100%;
 }
+#foodExpenses,
+#rentExpenses,
+#clothesExpenses {
+  margin: 10px;
+}

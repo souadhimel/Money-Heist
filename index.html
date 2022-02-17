@@ -18,15 +18,19 @@
 
       <!-- Right side -->
       <div class="right_side">
-        <div class="income">
+        <div>
           <h3>Income</h3>
-          <p>Income: <input type="text" value="10000" /></p>
+          <label for="income"> Income:</label>
+          <input id="income" type="text" />
         </div>
         <div class="expenses">
           <h3>Expenses</h3>
-          <p>Food: <input type="text" value="4000" /></p>
-          <p>Rent: <input type="text" value="2000" /></p>
-          <p>Clothes: <input type="text" value="500" /></p>
+          <label for="foodExpenses">Food:</label>
+          <input type="text" id="foodExpenses" /> <br />
+          <label for="rentExpenses">Rent:</label>
+          <input type="text" id="rentExpenses" /><br />
+          <label for="clothesExpenses">Clothes:</label>
+          <input type="text" id="clothesExpenses" />
         </div>
         <div class="calculation">
           <button>Calculate</button>
