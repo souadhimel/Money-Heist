@@ -1,0 +1,16 @@
+.page_header {
+  text-align: center;
+  color: purple;
+  font-size: 50px;
+}
+.main_page {
+  display: flex;
+}
+/* .right_side {
+  background-color: rgb(207, 192, 195);
+} */
+.page_pic {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
