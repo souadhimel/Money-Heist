@@ -7,8 +7,10 @@ let rentExpenses = document.getElementById("rentExpenses");
 let clothesExpenses = document.getElementById("clothesExpenses");
 let totalExpenses = document.getElementById("expensesOutput");
 
-let savingRate = document.getElementById("saving_input");
 let balanceAmount = document.getElementById("balance");
+
+// saving
+let savingRate = document.getElementById("saving_input");
 let savingAmount = document.getElementById("saving_amount");
 let remainingBalance = document.getElementById("remaining_balance");
 
